@@ -16,3 +16,13 @@ async def cherry():
 @router.get("/fruit/grapes")
 async def grapes():
     return {"fruit": "juicy"}
+
+
+@router.get("/fruit/watermelon")
+async def watermelon():
+    return {"fruit": "watery"}
+
+
+@router.get("/fruit/blueberry")
+async def blueberry():
+    return {"fruit": "sour"}
